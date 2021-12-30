@@ -1,5 +1,4 @@
 import React from 'react';
-git add
 
 const Otra = () => {
     return (
