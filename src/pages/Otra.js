@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroSection from '../components/HeroSection/HeroSection'
+git add
 
 const Otra = () => {
     return (
