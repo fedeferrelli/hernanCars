@@ -1,10 +1,15 @@
 import React from 'react';
+import Listado from '../components/Listado/Listado'
 
 const Otra = () => {
+    
+    
+    
     return (
+
         <>
 
-        <h1>Otra</h1>
+        <Listado/>
           
         </>
     )
