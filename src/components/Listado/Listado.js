@@ -10,7 +10,7 @@ import ListadoIndividual from './ListadoIndividual.js'
 const Listado = () =>{
 
     const {firebase} = useContext(FirebaseContext);
-
+    const fede = firebase.db;
     const [platos, setPlatos] = useState([])
 
 
@@ -18,7 +18,7 @@ const Listado = () =>{
     useEffect(() => {
 
        const obtenerPlato = () => {
-          firebase.db.collection('autos').onSnapshot(handleSnapshot); 
+        fede.collection('autos').onSnapshot(handleSnapshot); 
 
         }
         obtenerPlato();
@@ -49,7 +49,6 @@ const Listado = () =>{
                return( <ListadoIndividual
                 key={plato.id}
                 plato={plato}
-                className="bg-black"
                 /> )
             } )
             
