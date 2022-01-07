@@ -1,5 +1,6 @@
 import React from 'react';
-import {FaWhatsapp} from 'react-icons/fa';
+import {FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import {BsTelephoneOutbound} from 'react-icons/bs'
 
 
 
@@ -32,10 +33,14 @@ const PlatoMenu = ({plato}) =>{
 
                         </div>
 
-                        <div className="pl-2 flex w-full py-0 px-1 h-10 ">
+                        <div className="pl-2 flex  items-center w-full py-0 px-1 h-10 ">
 
-                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsapp className="text-2xl text-green-800 bold"/>}</a>
+                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsapp className="text-3xl text-green-800 bold"/>}</a>
                         
+
+                        <a href="tel:+5492262553135">{<FaPhoneAlt className="text-2xl text-blue-600 ml-4"/>}</a>
+
+
                         </div>
 
 
