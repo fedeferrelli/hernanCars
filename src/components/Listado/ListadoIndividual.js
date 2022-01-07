@@ -27,7 +27,7 @@ const PlatoMenu = ({plato}) =>{
 
                         <div className="pl-2 flex justify-center items-center w-full py-0 px-1 h-10 ">
 
-                            <p className="font-bold text-lg text-slate-800 mb-3 w-full">
+                            <p className="font-bold text-lg text-xl text-slate-800 mb-3 w-full">
                                     {marca}   {modelo} {año}   
                                 </p>
 
@@ -38,7 +38,7 @@ const PlatoMenu = ({plato}) =>{
                         <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsapp className="text-3xl text-green-800 bold"/>}</a>
                         
 
-                        <a href="tel:+5492262553135">{<FaPhoneAlt className="text-2xl text-blue-600 ml-4"/>}</a>
+                        <a href="tel:+5492262553135">{<FaPhoneAlt className="text-2xl text-gray-600 ml-4"/>}</a>
 
 
                         </div>
