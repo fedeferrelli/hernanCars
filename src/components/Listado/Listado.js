@@ -1,5 +1,5 @@
-import React, {useState, useEffect, useContext, Fragment} from 'react';
-import { Link } from 'react-router-dom';
+import React, {useState, useEffect, useContext} from 'react';
+
 import { FirebaseContext } from '../../firebase/index';
 import ListadoIndividual from './ListadoIndividual.js'
 
@@ -13,15 +13,6 @@ const Listado = () =>{
 
     const [platos, setPlatos] = useState([])
 
-    const [modificar, setModificar] = useState(false)
-
-    const [idModificar, setIdModificar] = useState('')
-
-    const [infoModificar, setInfoModificar] = useState({})
-
-    const [buscar, setBuscar] = useState('f')
-
-    const [autosParaMostar, setautosParaMostar] = useState({})
 
     
     useEffect(() => {
@@ -58,6 +49,7 @@ const Listado = () =>{
                return( <ListadoIndividual
                 key={plato.id}
                 plato={plato}
+                className="bg-black"
                 /> )
             } )
             
