@@ -1,7 +1,11 @@
 import React from 'react';
 import Video from '../../video/videoCuanteVueltas.mp4'
 import Video2 from '../../video/VideoArranque.mp4';
-import { HeroContainer, HeroBG, HeroVideo, HeroContent, HeroH1, HeroP, HeroBTNWraper } from './HeroSectionElements';
+import Portrait from '../../images/pexels-erik-mclean-9966015.jpg'
+import Portrait1 from '../../images/pexels-hassan-ouajbir-804129.jpg'
+import Portrait2 from '../../images/pexels-sourav-mishra-1231643.jpg'
+import Portrait3 from '../../images/pexels-prateek-katyal-2694389.jpg'
+import { HeroPortrait, HeroContainer, HeroBG, HeroVideo, HeroContent, HeroH1, HeroP, HeroBTNWraper } from './HeroSectionElements';
 import { Button } from '../ButtonElement';
 
 
@@ -14,12 +18,12 @@ const HeroSection = () => {
         <HeroContainer>
             <HeroBG>
 
-                <HeroVideo 
-                    src= {fede>768 ? Video2 : Video}
-                    type='video/mp4'
+                <HeroPortrait 
+                    src= {Portrait3}
+                    //type='video/mp4'
                     //controls
-                    autoplay
-                    autoPlay
+                    //autoplay
+                    //autoPlay
                     
                     //loop 
                     //muted 

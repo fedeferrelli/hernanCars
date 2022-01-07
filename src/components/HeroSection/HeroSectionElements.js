@@ -33,6 +33,14 @@ export const HeroVideo = styled.video`
     object-fit: cover
 `
 
+export const HeroPortrait = styled.img`
+    width: 100%;
+    height: 100%;
+    background: #232a34;
+    -o-object-fit: cover;
+    object-fit: cover
+`
+
 export const HeroContent = styled.div`
     z-index:3;
     max-width: 1200px;
@@ -46,7 +54,7 @@ export const HeroContent = styled.div`
    
 
     @media screen and (max-width: 768px){
-        top: 10px;
+        bottom: 10px;
         padding: 10px 30px;
         box-shadow: none;
         background-color: transparent;
