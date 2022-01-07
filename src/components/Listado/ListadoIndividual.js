@@ -34,7 +34,7 @@ const PlatoMenu = ({plato}) =>{
 
                         <div className="pl-2 flex w-full py-0 px-1 h-10 ">
 
-                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20tal%20%estás?'>{<FaWhatsapp className="text-2xl text-green-800 bold"/>}</a>
+                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20%estás?%20%Me%20%gustaría%20%hecerte%20%la%20%siguiente%20%consulta%0D%0A'>{<FaWhatsapp className="text-2xl text-green-800 bold"/>}</a>
                         
                         </div>
 
