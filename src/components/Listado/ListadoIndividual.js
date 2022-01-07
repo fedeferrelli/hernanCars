@@ -4,15 +4,14 @@ import {FaWhatsapp} from 'react-icons/fa';
 
 const PlatoMenu = ({plato}) =>{
 
-    const {marca, año, modelo, image} = plato
-
+    const {marca, año, modelo, image} = plato;
 
    
     return(
 
 
          <div className="w-full px-3 mb-4 ">
-            <div className="px-2 md:w-4/12  bg-white  rounded-lg h-24 flex justify-center items-center" >
+            <div className="px-2 md:w-4/12  bg-white  shadow-md  rounded-lg h-24 flex justify-center items-center" >
                
                 <div className="flex justify-center items-center m-auto  h-20 w-full">
 
@@ -33,9 +32,8 @@ const PlatoMenu = ({plato}) =>{
                         </div>
 
                         <div className="pl-2 flex w-full py-0 px-1 h-10 ">
-                        <a href={'https://api.whatsapp.com/send?phone=5492915033111'}>LinkedIn handle</a>
-                          <FaWhatsapp className="h-full text-2xl"
-                          onClick={()=> <a href={'https://api.whatsapp.com/send?phone=5492915033111'}>LinkedIn handle</a>}/>
+
+                        <a href='https://api.whatsapp.com/send?phone=5492915033111'>{<FaWhatsapp className="h-full text-2xl"/>}</a>
 
                         </div>
 
