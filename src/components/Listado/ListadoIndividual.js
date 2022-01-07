@@ -51,7 +51,7 @@ const PlatoMenu = ({plato}) =>{
                         <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsapp className="text-xl text-green-800 bold"/>}</a>
 
 
-                        <a href="tel:+5492262553135">{<FaPhoneAlt className="text-xl text-gray-600 "/>}</a>
+                        <a href="tel:+5492262553135">{<FaPhoneAlt className="text-xl text-gray-400 "/>}</a>
 
 
                     
