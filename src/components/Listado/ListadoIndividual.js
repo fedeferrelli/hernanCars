@@ -1,7 +1,5 @@
 import React from 'react';
 import {FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
-import {BsTelephoneOutbound} from 'react-icons/bs'
-
 
 
 const PlatoMenu = ({plato}) =>{
@@ -13,17 +11,17 @@ const PlatoMenu = ({plato}) =>{
 
 
          <div className="w-full px-3 mb-4 ">
-            <div className="px-2 md:w-4/12  bg-white  shadow-md  rounded-lg h-24 flex justify-center items-center" >
+            <div className="px-2   bg-white  shadow-md  rounded-lg h-24 flex justify-center items-center" >
                
                 <div className="flex justify-center items-center m-auto  h-20 w-full">
 
-                    <div className="w-2/6  lg:w-5/12 xl:w-3/12 md:w-1/4 sm:w-1/3 h-full  flex justify-center items-center" > 
+                    <div className="w-3/6 lg:w-5/12 xl:w-3/12 md:w-1/4 sm:w-1/3 h-full  flex justify-center items-center " > 
                     
                         <img src={image} alt="imagen del auto" className=" object-cover rounded-lg w-full h-max-20"/>
 
                     </div>
 
-                    <div className="w-4/6 lg:w-7/12 xl:w-9/12 md:w-3/4 sm:w-2/3  bg-white flex-col  ">
+                    <div className="w-3/6 lg:w-7/12 xl:w-9/12 md:w-3/4 sm:w-2/3  bg-white flex-col  ">
 
                         <div className="pl-2 flex justify-center items-center w-full py-0 px-1 h-10 ">
 
