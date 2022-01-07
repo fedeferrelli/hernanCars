@@ -1,7 +1,8 @@
 import React, {useState, useEffect, useContext} from 'react';
 
 import { FirebaseContext } from '../../firebase/index';
-import ListadoIndividual from './ListadoIndividual.js'
+import ListadoIndividual from './ListadoIndividual.js';
+import Detalle from './Detalle';
 
 
 
@@ -49,6 +50,7 @@ const Listado = () =>{
                return( <ListadoIndividual
                 key={plato.id}
                 plato={plato}
+                
                 /> )
             } )
             

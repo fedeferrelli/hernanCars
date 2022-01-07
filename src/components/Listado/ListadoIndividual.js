@@ -1,5 +1,7 @@
 import React from 'react';
 import {FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import { Button } from '../ButtonElement';
+import { Link } from 'react-router-dom';
 
 
 const PlatoMenu = ({plato}) =>{
@@ -58,6 +60,7 @@ const PlatoMenu = ({plato}) =>{
                     </div>
 
 
+                    <Link to="/detalle" state={{ from: plato }}>Ver</Link>
 
 
 
