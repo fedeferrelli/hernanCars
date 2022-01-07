@@ -7,7 +7,7 @@ const Otra = () => {
     
     return (
 
-        <div className="bg-black h-full">
+        <div className="bg-black h-screen" >
 
         <Listado
        />
