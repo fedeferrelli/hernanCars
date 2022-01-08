@@ -16,7 +16,7 @@ const Detalle = ({plato}) =>{
    
     return(
 
-<div className=" min-h-screen pb-4 items-center flex flex-col relative">
+<div className=" min-h-screen items-center flex flex-col relative">
 
       <img src={image} alt="imagen del auto" className=" object-cover w-full h-max-20"/>
           <div className="flex items-center justify-around mt-1 w-1/2" > 
