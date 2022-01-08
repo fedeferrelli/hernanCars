@@ -21,10 +21,10 @@ const Detalle = ({plato}) =>{
       <img src={image} alt="imagen del auto" className=" object-cover w-full h-max-20"/>
           <div className="flex items-center justify-around mt-1 w-1/2" > 
 
-          <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-5xl text-green-800 rounded-xl"/>}</a>
+          <a href='https://api.whatsapp.com/send?phone=5492262574254&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-5xl text-green-800 rounded-xl"/>}</a>
 
 
-          <a href="tel:+5492262553135">{<FaPhoneSquareAlt className=" text-5xl text-blue-500  rounded-xl"/>}</a>
+          <a href="tel:+5492262574254">{<FaPhoneSquareAlt className=" text-5xl text-blue-500  rounded-xl"/>}</a>
 
       </div>
     
@@ -35,7 +35,7 @@ const Detalle = ({plato}) =>{
       <h3 className="font-sans px-4 text-lg text-center text-slate-700  mb-5 w-full" > {descripcion}</h3>
 
       {/* <button>{<FaAngleLeft className=" bg-yellow-500 rounded-full text-4xl text-grey-500 p-2 bottom-10 right-10  absolute"/>}</button> */}
-      <Link to="/otra" state={{ from: plato }}>{<FaAngleLeft className=" bg-yellow-500 rounded-full text-4xl text-grey-500 p-2 bottom-20 right-10  absolute"/>}</Link>
+      <Link to="/otra" state={{ from: plato }}>{<FaAngleLeft className=" bg-yellow-500 rounded-full text-5xl text-grey-500 p-2 bottom-20 right-10  absolute"/>}</Link>
 
       </div>
     )
