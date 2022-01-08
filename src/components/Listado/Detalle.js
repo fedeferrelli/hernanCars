@@ -27,7 +27,7 @@ const Detalle = ({plato}) =>{
 
       <div className=" flex items-center justify-around mt-20  " > 
 
-        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-4xl text-green-800 rounded-xl drop-shadow-[0_0px_5px_rgba(0,0,0,0.7)] bg-neutral-400"/>}</a>
+        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-8xl text-green-800 rounded-xl drop-shadow-[0_0px_5px_rgba(0,0,0,0.7)] bg-neutral-400"/>}</a>
 
 
         <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="drop-shadow-[0_5px_10px_rgba(0,0,0,1)]  text-4xl text-blue-500  rounded-xl ml-3"/>}</a>
