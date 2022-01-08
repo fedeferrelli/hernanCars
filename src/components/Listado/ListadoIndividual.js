@@ -11,7 +11,7 @@ const PlatoMenu = ({plato}) =>{
    
     return(
 
-
+<Link to="/detalle" state={{ from: plato }}>
          <div className="w-full px-3 mb-4 ">
             <div className="px-2   bg-white  shadow-md  rounded-lg h-24 flex justify-center items-center" >
                
@@ -30,12 +30,12 @@ const PlatoMenu = ({plato}) =>{
 
                         <div className="pl-2 flex-col justify-center items-center w-full py-0 px-1 ">
 
-                            <p className="font-bold text-2xl text text-slate-800 mb-0 w-full">
+                            <p className="font-bold text-xl text text-slate-800 mb-0 w-full">
                                 {marca} {modelo}   
                             </p>
                                 
-                            <p className="text-lg text text-slate-800 mt-0 mb-0 w-full">
-                                {año}   
+                            <p className="text-lg text text-slate-700 mt-0 mb-0 w-full">
+                              año  {año}   
                             </p>
 
                         </div>
@@ -60,7 +60,7 @@ const PlatoMenu = ({plato}) =>{
                     </div>
 
 
-                    <Link to="/detalle" state={{ from: plato }}>Ver</Link>
+                   {/*  <Link to="/detalle" state={{ from: plato }}>Ver</Link> */}
 
 
 
@@ -71,6 +71,8 @@ const PlatoMenu = ({plato}) =>{
             </div>
            
         </div>
+
+        </Link>
     )
 };
 

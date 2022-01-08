@@ -10,12 +10,15 @@ const Detalle = ({plato}) =>{
     const location = useLocation()
   const { from } = location.state
 
-  const {marca, año, modelo, descripcion} = from;
+  const {marca, año, modelo, descripcion, image} = from;
    
     return(
 
-
+<>
       <h1>{marca} {modelo} {año} {descripcion}</h1>
+      <img src={image} alt="imagen del auto" className=" object-cover w-full h-max-20"/>
+
+      </>
     )
 };
 
