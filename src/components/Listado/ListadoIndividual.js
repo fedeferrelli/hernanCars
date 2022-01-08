@@ -26,7 +26,7 @@ const PlatoMenu = ({plato}) =>{
 
                    
                    
-                    <div className="w-6/12 lg:w-7/12 xl:w-9/12 md:w-3/4 sm:w-2/3  bg-white flex-col  ">
+                    <div className="w-8/12 lg:w-7/12 xl:w-9/12 md:w-3/4 sm:w-2/3  bg-white flex-col  ">
 
                         <div className="pl-2 flex-col justify-between items-center w-full py-0 px-1 ">
 
@@ -85,7 +85,7 @@ const PlatoMenu = ({plato}) =>{
                     </div> */}
 
 
-                   <Link to="/detalle" state={{ from: plato }}>{<FaAngleRight className="text-2xl text-slate-400 bold bg-stone-300 rounded-xl"/>}</Link>
+                   <Link to="/detalle" state={{ from: plato }}>{<FaAngleRight className="text-2xl text-slate-400 bold rounded-xl"/>}</Link>
 
 
 
