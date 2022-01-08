@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
+import {FaWhatsapp, FaPhoneAlt, FaWhatsappSquare, FaPhoneSquareAlt, FaAngleRight } from 'react-icons/fa';
 import { Button } from '../ButtonElement';
 import { Link } from 'react-router-dom';
 
@@ -11,9 +11,9 @@ const PlatoMenu = ({plato}) =>{
    
     return(
 
-<Link to="/detalle" state={{ from: plato }}>
+
          <div className="w-full px-3 mb-4 ">
-            <div className="px-2   bg-white  shadow-md  rounded-lg h-24 flex justify-center items-center" >
+            <div className="px-2   bg-white  shadow-md  rounded-lg h-24 flex justify-center items-center " >
                
                 <div className="flex justify-center items-center h-20 w-full">
 
@@ -50,17 +50,17 @@ const PlatoMenu = ({plato}) =>{
                     
                     
 
-                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsapp className="text-xl text-green-800 bold"/>}</a>
+                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-green-800 bold"/>}</a>
 
 
-                        <a href="tel:+5492262553135">{<FaPhoneAlt className="text-xl text-gray-400 "/>}</a>
+                        <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="text-xl text-gray-400 "/>}</a>
 
 
                     
                     </div>
 
 
-                   {/*  <Link to="/detalle" state={{ from: plato }}>Ver</Link> */}
+                   <Link to="/detalle" state={{ from: plato }}>{<FaAngleRight className="text-xl text-slate-400 bold"/>}</Link>
 
 
 
@@ -72,7 +72,6 @@ const PlatoMenu = ({plato}) =>{
            
         </div>
 
-        </Link>
     )
 };
 
