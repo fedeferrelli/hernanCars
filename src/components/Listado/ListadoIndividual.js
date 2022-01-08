@@ -28,28 +28,28 @@ const PlatoMenu = ({plato}) =>{
                    
                     <div className="w-6/12 lg:w-7/12 xl:w-9/12 md:w-3/4 sm:w-2/3  bg-white flex-col  ">
 
-                        <div className="pl-2 flex-col justify-center items-center w-full py-0 px-1 ">
+                        <div className="pl-2 flex-col justify-between items-center w-full py-0 px-1 ">
 
-                            <p className="font-bold text-xl text text-slate-800 mb-0 w-full">
-                                {marca} {modelo}   
-                            </p>
-                                
-                            <p className="text-lg text text-slate-700 mt-0 mb-0 w-full">
-                              año  {año}   
-                            </p>
+                            <div className=" flex flex-col mb-3">
 
-                            <div className=" flex items-cente" > 
-                    
-                    
+                                <p className="font-bold text-xl text text-slate-800 mb-0 w-full">
+                                    {marca} {modelo}   
+                                </p>
+                                    
+                                <p className="text-md text text-slate-700 mt-0 mb-0 w-full ">
+                               {año}   
+                                </p>
 
-                    <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-green-800 rounded-xl"/>}</a>
+                            </div>
+                           
+                            <div className=" flex items-center" > 
+
+                                    <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-green-800 rounded-xl"/>}</a>
 
 
-                    <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="text-xl text-gray-400 rounded-xl"/>}</a>
-
-
-                
-                </div>
+                                    <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="text-xl text-gray-400 rounded-xl ml-3"/>}</a>
+ 
+                            </div>
 
                         </div>
 
