@@ -20,13 +20,7 @@ const HeroSection = () => {
 
                 <HeroPortrait 
                     src= {Portrait3}
-                    //type='video/mp4'
-                    //controls
-                    //autoplay
-                    //autoPlay
-                    
-                    //loop 
-                    //muted 
+           
                     />               
             </HeroBG>
 

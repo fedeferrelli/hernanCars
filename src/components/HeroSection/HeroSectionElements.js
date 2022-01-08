@@ -54,7 +54,7 @@ export const HeroContent = styled.div`
    
 
     @media screen and (max-width: 768px){
-        bottom: 10px;
+        bottom: 20px;
         padding: 10px 30px;
         box-shadow: none;
        
