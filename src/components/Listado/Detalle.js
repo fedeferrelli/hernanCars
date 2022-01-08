@@ -15,7 +15,7 @@ const Detalle = ({plato}) =>{
    
     return(
 
-<div className="bg-neutral-200 min-h-screen py-4">
+<div className="bg-neutral-200 min-h-screen pb-4">
       
       <img src={image} alt="imagen del auto" className=" object-cover w-full h-max-20"/>
       <h1 className="font-sans font-bold text-3xl text-center text-slate-800 mt-5 mb-0 w-full">{marca} {modelo} </h1>
@@ -27,7 +27,7 @@ const Detalle = ({plato}) =>{
 
       <div className=" flex items-center justify-center" > 
 
-        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-4xl text-green-800 rounded-xl"/>}</a>
+        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-4xl text-gray-800 rounded-xl"/>}</a>
 
 
         <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="text-4xl text-gray-400 rounded-xl ml-3"/>}</a>
