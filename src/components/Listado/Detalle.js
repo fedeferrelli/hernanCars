@@ -15,14 +15,14 @@ const Detalle = ({plato}) =>{
    
     return(
 
-<>
+<div className="bg-neutral-200 min-h-screen py-4">
       
       <img src={image} alt="imagen del auto" className=" object-cover w-full h-max-20"/>
-      <h1 className="font-bold text-3xl text-center text-slate-800 mt-5 mb-0 w-full">{marca} {modelo} </h1>
+      <h1 className="font-sans font-bold text-3xl text-center text-slate-800 mt-5 mb-0 w-full">{marca} {modelo} </h1>
       
-      <h2 className="text-xl text-center text-slate-700  mb-5 w-full"> {año} </h2>
+      <h2 className=" font-sans text-xl text-center text-slate-700  mb-5 w-full"> {año} </h2>
       
-      <h3 className="text-lg text-center text-slate-700  mb-5 w-full" > {descripcion}</h3>
+      <h3 className="font-sans px-4 text-lg text-center text-slate-700  mb-5 w-full" > {descripcion}</h3>
 
 
       <div className=" flex items-center justify-center" > 
@@ -34,7 +34,7 @@ const Detalle = ({plato}) =>{
 
 </div>
 
-      </>
+      </div>
     )
 };
 

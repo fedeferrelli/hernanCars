@@ -14,7 +14,7 @@ const PlatoMenu = ({plato}) =>{
 
          <div className="w-full px-2 mb-4 ">
             
-            <div className="px-1   bg-white  shadow-md  rounded-lg h-28 flex justify-center items-center " >
+            <div className="px-2   bg-white  shadow-md  rounded-lg flex justify-center items-center " >
                
                 <div className="flex justify-between items-center h-28 w-full">
 
@@ -33,11 +33,11 @@ const PlatoMenu = ({plato}) =>{
 
                             <div className=" flex flex-col mb-3">
 
-                                <p className="font-bold text-xl text text-slate-800 mb-0 w-full">
+                                <p className="font-bold text-xl text text-slate-800 mb-0 w-full font-sans ">
                                     {marca} {modelo}   
                                 </p>
                                     
-                                <p className="text-md text text-slate-700 mt-0 mb-0 w-full ">
+                                <p className=" font-sans text-md text text-slate-700 mt-0 mb-0 w-full ">
                                {año}   
                                 </p>
 
