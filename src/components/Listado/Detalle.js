@@ -25,12 +25,12 @@ const Detalle = ({plato}) =>{
       <h3 className="font-sans px-4 text-lg text-center text-slate-700  mb-5 w-full" > {descripcion}</h3>
 
 
-      <div className=" flex items-center justify-center" > 
+      <div className=" flex items-center justify-around mt-20  " > 
 
-        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-4xl text-green-800 rounded-xl drop-shadow-2xl "/>}</a>
+        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-4xl text-green-800 rounded-xl drop-shadow-[0_0px_20px_rgba(0,0,0,1)] bg-neutral-400"/>}</a>
 
 
-        <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="text-4xl text-blue-500 drop-shadow-2xl  rounded-xl ml-3"/>}</a>
+        <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="drop-shadow-[0_5px_10px_rgba(0,0,0,1)]  text-4xl text-blue-500  rounded-xl ml-3"/>}</a>
 
 </div>
 
