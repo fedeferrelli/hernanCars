@@ -50,17 +50,17 @@ const PlatoMenu = ({plato}) =>{
                     
                     
 
-                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-green-800 bold"/>}</a>
+                        <a href='https://api.whatsapp.com/send?phone=5492915033111&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-green-800 rounded-xl"/>}</a>
 
 
-                        <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="text-xl text-gray-400 "/>}</a>
+                        <a href="tel:+5492262553135">{<FaPhoneSquareAlt className="text-xl text-gray-400 rounded-xl"/>}</a>
 
 
                     
                     </div>
 
 
-                   <Link to="/detalle" state={{ from: plato }}>{<FaAngleRight className="text-xl text-slate-400 bold"/>}</Link>
+                   <Link to="/detalle" state={{ from: plato }}>{<FaAngleRight className="text-2xl text-slate-400 bold bg-stone-300 rounded-xl"/>}</Link>
 
 
 
