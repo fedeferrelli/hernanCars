@@ -4,11 +4,6 @@ import { FirebaseContext } from '../../firebase/index';
 import ListadoIndividual from './ListadoIndividual.js';
 import _ from 'lodash'; 
 
-
-
-
-
-
 const Listado = ({filtro}) =>{
 
     const {firebase} = useContext(FirebaseContext);

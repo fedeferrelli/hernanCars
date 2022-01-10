@@ -8,6 +8,7 @@ export const Button = styled(Link)`
     padding: 14px 48px;
     color: black;
     font-size: 20px;
+    margin-bottom: 10px;
     outline: none;
     border: none;
     cursor: pointer;

@@ -1,18 +1,13 @@
 import React from 'react';
-import {FaWhatsapp, FaPhoneAlt, FaWhatsappSquare, FaPhoneSquareAlt, FaAngleRight } from 'react-icons/fa';
-import { Button } from '../ButtonElement';
+import {FaWhatsappSquare, FaPhoneSquareAlt, FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
 const PlatoMenu = ({plato}) =>{
 
     const {marca, año, modelo, image} = plato;
-
-
-
-   
+  
     return(
-
 
          <div className="w-full px-2 mb-4 ">
 
@@ -48,10 +43,10 @@ const PlatoMenu = ({plato}) =>{
                            
                             <div className=" flex items-center" > 
 
-                                    <a href='https://api.whatsapp.com/send?phone=5492262574254&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-yellow-600 rounded-sm"/>}</a>
+                                    <a href='https://api.whatsapp.com/send?phone=5492262574254&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-neutral-400 rounded-sm"/>}</a>
 
 
-                                    <a href="tel:+5492262574254">{<FaPhoneSquareAlt className="text-xl text-yellow-600 rounded-sm ml-3"/>}</a>
+                                    <a href="tel:+5492262574254">{<FaPhoneSquareAlt className="text-xl text-neutral-400 rounded-sm ml-3"/>}</a>
  
                             </div>
 

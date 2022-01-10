@@ -25,14 +25,6 @@ export const HeroBG = styled.div`
     overflow: hidden;
 `
 
-export const HeroVideo = styled.video`
-    width: 100%;
-    height: 100%;
-    background: #232a34;
-    -o-object-fit: cover;
-    object-fit: cover
-`
-
 export const HeroPortrait = styled.img`
     width: 100%;
     height: 100%;
