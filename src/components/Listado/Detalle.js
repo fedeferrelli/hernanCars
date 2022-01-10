@@ -1,7 +1,7 @@
 import React from 'react';
 //import {FaWhatsapp, FaPhoneAlt } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom'
-import {FaWhatsapp, FaPhoneAlt, FaWhatsappSquare, FaPhoneSquareAlt, FaArrowLeft, FaAngleLeft } from 'react-icons/fa';
+import {FaWhatsapp, FaPhoneAlt, FaWhatsappSquare, FaPhoneSquareAlt, FaArrowLeft, FaAngleLeft, FaArrowCircleLeft } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
@@ -42,10 +42,13 @@ const Detalle = ({plato}) =>{
       <h2 className=" font-sans text-xl text-center text-slate-700  mb-5 w-full"> {año} </h2>
       
       <h3 className="font-sans px-4 text-lg text-center text-slate-700  mb-5 w-full" > {descripcion}</h3>
+
+      <Link to="/otra" state={{ from: plato }}>{<FaArrowCircleLeft className="  text-3xl text-slate-400  text-center w-full"/>}</Link>
+
+      
       </div>
      
-      <Link to="/otra" state={{ from: plato }}>{<FaArrowLeft className=" bg-yellow-500 rounded-full text-5xl text-gray-500 p-4  bottom-15 right-10  absolute"/>}</Link>
-
+     
       
 
       </div>
