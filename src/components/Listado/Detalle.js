@@ -31,7 +31,7 @@ const Detalle = ({plato}) =>{
 
       </div>
 
-      <div className="bg-white rounded-md w-11/12 px-3 py-4 mt-5 flex justify-center items-center flex-col">
+      <div className="bg-white rounded-md w-11/12 px-3 py-4 my-5 flex justify-center items-center flex-col">
     
       <h1 className="font-sans font-bold text-3xl text-center text-slate-800  mb-0 w-full">{marca} {modelo} </h1>
       
