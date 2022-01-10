@@ -47,12 +47,12 @@ const Listado = () =>{
 
         if(marcaAnterior!=marca){
             return(
-                <h1 className="font-bold font-sans text-2xl text-left mt-2 mb-1 border-2" >{marca} </h1>
+                <h1 className="text-yellow-600 font-bold font-sans text-2xl text-left mt-2 mb-1 border-2" >{marca} </h1>
             )
         }}
         else{
             return(
-                <h1 className="font-bold font-sans text-2xl text-left  mt-2 mb-1 border-2" >{marca} </h1>
+                <h1 className="text-yellow-600 font-bold font-sans text-2xl text-left  mt-2 mb-1 border-2" >{marca} </h1>
 
             )
         }
