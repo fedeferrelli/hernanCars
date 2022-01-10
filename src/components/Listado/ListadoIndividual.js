@@ -8,11 +8,14 @@ const PlatoMenu = ({plato}) =>{
 
     const {marca, año, modelo, image} = plato;
 
+
+
    
     return(
 
 
          <div className="w-full px-2 mb-4 ">
+
             
             <div className="px-2   bg-white  shadow-md  rounded-lg flex justify-center items-center " >
                

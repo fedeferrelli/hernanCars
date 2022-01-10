@@ -35,7 +35,7 @@ const Detalle = ({plato}) =>{
 
       </div>
 
-      <div className="bg-white rounded-md w-11/12 px-3 py-4 mt-5">
+      <div className="bg-white rounded-md w-11/12 px-3 py-4 mt-5 flex justify-center items-center flex-col">
     
       <h1 className="font-sans font-bold text-3xl text-center text-slate-800  mb-0 w-full">{marca} {modelo} </h1>
       
@@ -43,7 +43,7 @@ const Detalle = ({plato}) =>{
       
       <h3 className="font-sans px-4 text-lg text-center text-slate-700  mb-5 w-full" > {descripcion}</h3>
 
-      <Link to="/otra" state={{ from: plato }}>{<FaArrowCircleLeft className="  text-3xl text-slate-400  text-center w-full"/>}</Link>
+      <Link to="/otra" state={{ from: plato }}>{<FaArrowCircleLeft className="  text-3xl text-slate-400"/>}</Link>
 
       
       </div>
