@@ -36,11 +36,11 @@ const PlatoMenu = ({plato}) =>{
 
                             <div className=" flex flex-col mb-3">
 
-                                <p className="font-bold text-xl text text-slate-800 mb-0 w-full font-sans ">
+                                <p className="font-bold text-xl text-left text-slate-800 mb-0 w-full font-sans ">
                                     {marca} {modelo}   
                                 </p>
                                     
-                                <p className=" font-sans text-md text text-slate-700 mt-0 mb-0 w-full ">
+                                <p className=" font-sans text-md text-left text-slate-700 mt-0 mb-0 w-full ">
                                {año}   
                                 </p>
 

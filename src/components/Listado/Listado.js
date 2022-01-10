@@ -9,14 +9,13 @@ import _ from 'lodash';
 
 
 
-const Listado = () =>{
+const Listado = ({filtro}) =>{
 
     const {firebase} = useContext(FirebaseContext);
     
     const [platos, setPlatos] = useState([])
 
-
-    
+  
     useEffect(() => {
 
        const obtenerPlato = () => {
@@ -24,7 +23,7 @@ const Listado = () =>{
 
         }
         obtenerPlato();
-    }, []);
+    }, [filtro]);
 
 // Snapshot permite manejar la base de datos en real time  
   
@@ -36,7 +35,8 @@ const Listado = () =>{
             }
         });
 
-        const platos_sorteados = _.sortBy(platos, 'marca', 'modelo' ,'año');
+        const platos_filtrados = _.filter(platos, plato => _.includes(_.lowerCase([plato.marca, plato.modelo, plato.año]), _.lowerCase(filtro) ));
+        const platos_sorteados = _.sortBy(platos_filtrados, 'marca', 'modelo' ,'año');
         setPlatos(platos_sorteados)
     }
  
