@@ -28,7 +28,7 @@ const Detalle = ({plato}) =>{
          </div>
 
 
-        <div className="bg-orange-500 rounded-full">
+        <div className=" rounded-full">
           <a href="tel:+5492262574254">{<FaPhoneAlt className=" p-3 text-5xl text-white   rounded-full"/>}</a>
           </div>
 

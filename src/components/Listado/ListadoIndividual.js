@@ -48,10 +48,10 @@ const PlatoMenu = ({plato}) =>{
                            
                             <div className=" flex items-center" > 
 
-                                    <a href='https://api.whatsapp.com/send?phone=5492262574254&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl text-gray-400 rounded-sm"/>}</a>
+                                    <a href='https://api.whatsapp.com/send?phone=5492262574254&text=Hola,%20Hernán.%20Cómo%20estás?%20Me%20gustaría%20hecerte%20la%20siguiente%20consulta.%0D%0A%0D%0A'>{<FaWhatsappSquare className="text-xl bg-yellow-600 text-gray-400 rounded-sm"/>}</a>
 
 
-                                    <a href="tel:+5492262574254">{<FaPhoneSquareAlt className="text-xl text-gray-400 rounded-sm ml-3"/>}</a>
+                                    <a href="tel:+5492262574254">{<FaPhoneSquareAlt className="text-xl text-gray-400 text-yellow-600 rounded-sm ml-3"/>}</a>
  
                             </div>
 
