@@ -60,8 +60,6 @@ const Listado = () =>{
 
 
  return(
-   
-
         
            platos.map((plato,i) => {          
                return( 
@@ -78,6 +76,7 @@ const Listado = () =>{
                 </div>)
             } )
             
+           
             );}
     
 
