@@ -14,7 +14,7 @@ const Otra = () => {
 
         <div className=" bg-neutral-200 min-h-screen py-4 text-center justify-start flex-col" >
 
-        <input className="w-11/12 sticky top-1 border border-neutral-300 italic p-2 px-3 m-auto rounded-3xl " placeholder="Buscar"  type="text" id="buscar" name="buscar"
+        <input className="w-11/12 focus:outline-none focus:border-yellow-600 sticky top-1 border border-neutral-300 italic p-2 px-3 m-auto rounded-3xl" placeholder="Buscar"  type="text" id="buscar" name="buscar"
         onChange={handleChange}
         />
 
