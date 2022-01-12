@@ -3,10 +3,13 @@ import { Link } from "react-router-dom";
 
 export const Button = styled(Link)`
     border-radius: 50px;
-    background: rgb(178, 25, 25);
+    background: rgb(25,25,112);
     white-space: nowrap;
     padding: 14px 48px;
-    color: black;
+    color: white;
+    text-transform: uppercase ;
+    
+    letter-spacing: 2px;
     font-size: 20px;
     margin-bottom: 10px;
     outline: none;
@@ -22,7 +25,8 @@ export const Button = styled(Link)`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: rgb(220, 68, 68)
+        background: rgb(0,0,128);
+        color: darkgrey;
 
     }
 `
